@@ -1,0 +1,8 @@
+{
+  "extends": "astro/tsconfigs/strictest",
+  "compilerOptions": {
+    "jsx": "preserve",
+    // Skip type checking of external libraries.
+    "skipLibCheck": true
+  }
+}

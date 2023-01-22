@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "packageManager": "pnpm@7.13.0",
+  "scripts": {
+    "build": "turbo build",
+    "build:www": "turbo --filter=www build",
+    "dev:www": "turbo --filter=www dev"
+  },
+  "dependencies": {
+    "@types/node": "^18.8.0",
+    "turbo": "^1.5.5",
+    "typescript": "^4.9.3"
+  }
+}
